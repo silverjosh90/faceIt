@@ -14,8 +14,8 @@ block content
       br
       h1(class="title center col s3 offset-s2")= title
       p(class="center indie") The smart way to learn about your consumers
-      form
-        input(type="text" class="hashtagSearch" placeholder="enter a hashtag")
+      form(action="/" method="POST")
+        input(type="text" class="hashtagSearch" name="hashtag" placeholder="enter a hashtag")
         button(type="submit") search twitter
       .about
         // h3(class='headerMiddle') About FaceIt
