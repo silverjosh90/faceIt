@@ -1,8 +1,80 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.container {
+  clear: both;
 }
 
-a {
-  color: #00B7FF;
+.center {
+  text-align: center;
+}
+
+.frontSection {
+  background-image: url("https://images.unsplash.com/photo-1440557958969-404dc361d86f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9404042a3064b2bbb03f69f43f9938a9");
+  background-size: cover;
+}
+
+.hashtagSearch {
+  margin: 0 auto;
+  display: block;
+  margin-top: 50px;
+  background-color: white;
+  margin-bottom: 20px;
+  width: 40%;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.indie {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.8em;
+}
+
+button {
+  text-align: center;
+  background-color: #BBC4F9;
+  color: white;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+  height: 45px;
+  width: 135px;
+  font-size: 1.2em;
+  font-family: helvetica;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 3.5em;
+}
+.about {
+  width: 200px;
+  float: left;
+  padding-right: 15%;
+  text-align: center;
+}
+.headerMiddle {
+  text-align: center;
+}
+
+
+li {
+  list-style: none;
+  float: left;
+  font-size: 1.5em;
+  padding-right: 15px;
+  padding-left: 15px;
+  cursor: pointer;
+}
+ul {
+  position: relative;
+  top: -35px;
+}
+
+ul li:hover {
+  font-size: 1.8em;
 }

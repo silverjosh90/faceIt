@@ -4,6 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var unirest = require('unirest');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -55,6 +56,14 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
+
+
+app.get('/books', function(req, res) {
+	unirest.get('http://apius.faceplusplus.com')
+	  .end(function (response) {
+	    console.log(response.body);
+	  })
+})
 
 
 module.exports = app;

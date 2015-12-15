@@ -2,6 +2,11 @@ doctype html
 html
   head
     title= title
+
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css')
+    script(type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+    script
+      include ../public/javascripts/scripts.js
   body
     block content

@@ -1,5 +1,33 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .container
+    .navBar
+      ul
+        li(id="home") Home
+        li(id="about") About
+
+    .frontSection
+      br
+      br
+      br
+      br
+      h1(class="title center col s3 offset-s2")= title
+      p(class="center indie") The smart way to learn about your consumers
+      form
+        input(type="text" class="hashtagSearch" placeholder="enter a hashtag")
+        button(type="submit") search twitter
+      .about
+        // h3(class='headerMiddle') About FaceIt
+        // p Founded in 2015. Face It uses facial recognition software to provide an unparalleled look at their costumers.
+      .provide
+        // h3 What Does face it provide
+        // p to offer businesses the most realistic information available.
+      br
+      br
+      br
+      br
+      br
+      br
+      br
+      br
