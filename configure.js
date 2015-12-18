@@ -13,6 +13,39 @@ var encoded_ck= '65O2gFJnGQwf1hW2k0Xjks0HY'
 // grant_type: "client_credentials"
 // })
 
+// function runFaceAPI(urlArray, callback) {
+//   faceStats = []
+//   for (var i = 0; i < 4; i++) {
+//     facePlus(urlArray[i], function(response) {
+//       var facialInfo = pullFacialInfo(response)
+//       faceStats.push(facialInfo)
+//       if(faceStats.length === 3){
+//         return callback(faceStats)
+//       }
+//     })
+//   }
+// }
+
+// google.load('visualization', '1.0', {'packags':['corechart']});
+//
+// google.setOnLoadCallback(drawChart);
+//
+//
+//function drawBarGraph() {
+//       var data= gogle.visualization.arrayToDataTable([
+//   ['Element', 'Density', { role: 'style' }, { role: 'annotation' } ],
+//   ['Copper', 8.94, '#b87333', 'Cu' ],
+//   ['Silver', 10.49, 'silver', 'Ag' ],
+//   ['Gold', 19.30, 'gold', 'Au' ],
+//   ['Platinum', 21.45, 'color: #e5e4e2', 'Pt' ]
+// ]);
+//   var options = {'title': 'Gender',
+// 'width': 500,
+// 'height': 300};
+//   var bar = new google.visualization.BarChart(document.getElementById('infoPic'));
+//   bar.draw(data, options);
+//
+// }
 
 module.exports = {
   consumer_key: '65O2gFJnGQwf1hW2k0Xjks0HY',

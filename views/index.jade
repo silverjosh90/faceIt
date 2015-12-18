@@ -1,33 +1,31 @@
 extends layout
 
 block content
-  .container
-    .navBar
-      ul
-        li(id="home") Home
-        li(id="about") About
 
-    .frontSection
-      br
-      br
-      br
-      br
-      h1(class="title center col s3 offset-s2")= title
-      p(class="center indie") The smart way to learn about your consumers
-      form(action="/" method="POST")
-        input(type="text" class="hashtagSearch" name="hashtag" placeholder="enter a hashtag")
-        button(type="submit") search twitter
-      .about
-        // h3(class='headerMiddle') About FaceIt
-        // p Founded in 2015. Face It uses facial recognition software to provide an unparalleled look at their costumers.
-      .provide
-        // h3 What Does face it provide
-        // p to offer businesses the most realistic information available.
-      br
-      br
-      br
-      br
-      br
-      br
-      br
-      br
+  .frontSection
+    br
+    br
+    br
+    br
+    .title1 Face It
+
+    p(class="center indie") The smart way to learn about your consumers
+    form(action="/" method="POST")
+      input(type="text" class="hashtagSearch" name="hashtag" placeholder="enter a hashtag")
+      button(type="submit") search
+    .about
+      // h3(class='headerMiddle') About FaceIt
+      // p Founded in 2015. Face It uses facial recognition software to provide an unparalleled look at their costumers.
+    .provide
+      // h3 What Does face it provide
+      // p to offer businesses the most realistic information available.
+    h1(class="hidden") #{info}
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br

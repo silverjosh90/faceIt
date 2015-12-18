@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  .container2
+    h1(id="dataPresentation" class="center") Data Analysis
+    ul(id="chooseStat")
+      li(class="statLi" id="gender" name="gender") Gender
+      li(class="statLi" id="race") Race
+      li(class="statLi" id="age") Age
+    #infoVisuals
+    #infoPic
+    h1(id="results" class="hidden") #{info}

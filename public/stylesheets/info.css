@@ -1,0 +1,77 @@
+#dataPresentation {
+  padding-top: 15px;
+}
+.container2 {
+  background-image:  url("https://images.unsplash.com/photo-1440557958969-404dc361d86f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9404042a3064b2bbb03f69f43f9938a9");
+  background-size: cover;
+  color: white;
+  height: 96vh;
+  width: 100%;
+  padding-top: 0;
+  margin-top: 0;
+  color: #232126;
+  font-family: 'Exo 2', sans-serif;;
+  position: relative;
+  top: -10px;
+}
+
+#chooseStat {
+  list-style: none;
+  font-size: 1.8em;
+  position: relative;
+  left: -15px;
+  float: left;
+  margin-right: 15px;
+  top: 19px;
+  margin-left: 1%;
+  margin-right: 3%;
+}
+
+.statLi {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: none;
+  margin-top: none;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border: 1px solid white;
+  width: 90%;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  background-color: #656371;
+  opacity: .8;
+  box-shadow: 2px 2px 2px 2px;
+}
+
+.statLi:hover {
+  opacity: .5;
+}
+
+#infoVisuals {
+  float: left;
+  background-color: white;
+  opacity: .3;
+  height:415px;
+  width: 72%;
+  margin: 0 auto;
+  margin-top: 19px;
+  border-radius: 25px;
+  position: absolute;
+  left: 18%;
+  box-shadow: 2px 1px 1px 1px;
+
+}
+#all {
+  margin-top: 0;
+}
+
+#infoPic {
+  margin-top: 6%;
+  padding-top: 15px;
+  margin-left: 36%;
+  opacity: 1;
+  position: relative;
+}

@@ -1,6 +1,9 @@
 body {
-  padding: 50px;
   font-family: Helvetica, Arial, sans-serif;
+  padding-top: none;
+  margin-top: none;
+  height: 100%;
+  width: 100%
 }
 .container {
   clear: both;
@@ -13,6 +16,7 @@ body {
 .frontSection {
   background-image: url("https://images.unsplash.com/photo-1440557958969-404dc361d86f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9404042a3064b2bbb03f69f43f9938a9");
   background-size: cover;
+  height: 97vh;
 }
 
 .hashtagSearch {
@@ -27,6 +31,7 @@ body {
   height: 30px;
   font-size: 1.5em;
   text-align: center;
+  font-family: 'Exo 2', sans-serif;
 }
 
 .indie {
@@ -44,13 +49,44 @@ button {
   height: 45px;
   width: 135px;
   font-size: 1.2em;
-  font-family: helvetica;
+  font-family: 'Exo 2', sans-serif;
 }
 
-.title {
+.title1{
   font-weight: bold;
-  font-size: 3.5em;
+  text-align: center;
+  font-size: 3.8em;
+  font-family: 'Exo 2', sans-serif;
 }
+.title3{
+  font-weight: bold;
+  font-size: .5em;
+  width: 20px;
+
+}
+
+.title4 {
+  font-weight: bold;
+  font-size: .5em;
+  color: red;
+  border: 1px solid black;
+  width: 23px;
+  text-align: center;
+}
+.title5 {
+  font-weight: bold;
+  font-size: .5em;
+  position: relative;
+  left: 23px;
+
+}
+
+#logoWrapper {
+  position: relative;
+  top: -15px;
+}
+
+
 .about {
   width: 200px;
   float: left;
@@ -62,7 +98,7 @@ button {
 }
 
 
-li {
+.lis {
   list-style: none;
   float: left;
   font-size: 1.5em;
@@ -70,11 +106,21 @@ li {
   padding-left: 15px;
   cursor: pointer;
 }
-ul {
+nav {
   position: relative;
-  top: -35px;
+  padding-top: 10px;
 }
 
-ul li:hover {
+ul .lis:hover {
   font-size: 1.8em;
+}
+.navBar {
+  position: relative;
+  height: 60px;
+  width: 100%;
+  background-color: #F5F2E1;
+}
+
+.hidden {
+  display: none;
 }

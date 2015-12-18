@@ -2,11 +2,18 @@ doctype html
 html
   head
     title= title
-
+    link(href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Exo+2:400,500' rel='stylesheet' type='text/css')
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/info.css')
     link(href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css')
+    script(type="text/javascript" src="https://www.google.com/jsapi")
     script(type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
     script
       include ../public/javascripts/scripts.js
+    script
+      include ../public/javascripts/info.js
+
   body
-    block content
+
+  block content
